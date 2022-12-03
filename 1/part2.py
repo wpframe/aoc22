@@ -1,5 +1,4 @@
-# Day 1 Part 2 - Approx time: 10 mins
-# Ended up trying to iterate through the top_3 list I created using an index and then changed it which resulted in this taking a bit more time than I should have
+# Day 1 Part 2
 
 file = open("input.txt", "r")
 
