@@ -1,5 +1,4 @@
-# Day 1 Part 1 - Approx time: 3 mins
-# Could have split the file into different lists however couldn't be bothered with the mess and would rather do something more readable
+# Day 1 Part 1
 
 file = open("input.txt", "r")
 
