@@ -1,4 +1,4 @@
-# Day 3 Part 1
+# Day 4 Part 1
 
 file = open("input.txt", "r")
 
