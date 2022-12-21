@@ -8,10 +8,8 @@ count = 0
 for line in file:
     line = line.strip("\n")
     if line == "":
-        if min(top_3) < count:
-            top_3[top_3.index(min(top_3))] = count
+        if min(top_3) < count: top_3[top_3.index(min(top_3))] = count
         count = 0
-    else:
-        count = count + int(line)
+    else: count = count + int(line)
         
 print(sum(top_3))

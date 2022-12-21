@@ -25,12 +25,9 @@ for line in file:
     for pair in win_pairs:
         if line[0] in pair and response in pair:
             score += 6
-    if response == 'X':
-        score += 1
-    if response == 'Y':
-        score += 2
-    if response == 'Z':
-        score += 3
+    if response == 'X': score += 1
+    if response == 'Y': score += 2
+    if response == 'Z': score += 3
     for pair in pairs:
         if line[0] in pair and response in pair:
             score += 3

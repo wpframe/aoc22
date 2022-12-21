@@ -1,4 +1,4 @@
 # aoc22
 My Advent of Code 2022 Repo
 
-Doing all of it in Python and Java.
+Quit after number 7 as I got too busy.

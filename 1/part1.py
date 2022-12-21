@@ -8,10 +8,8 @@ count = 0
 for line in file:
     line = line.strip("\n")
     if line == "":
-        if count > max:
-            max = count
+        if count > max: max = count
         count = 0
-    else:
-        count = count + int(line)
+    else: count = count + int(line)
         
 print(max)
